@@ -1,0 +1,1 @@
+{ "$": { "foo": "bar&baz\"quote" }, "_": "test with a \"quote\" & an ampersand &#x2014; after dash and then <> greater-less." }

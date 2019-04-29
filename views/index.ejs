@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grist Application</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to GRiST XML Page Application.</h1>
+    <ul>
+    <% listOfComments.forEach((item) => { %>
+      <li><%= item.comment %> : <%= item.commentDate %> </li>
+    <% })%>
+  </ul>
+    <input type="button" onclick="postOnFacebook()" value="Post on Facebook"/>
+  </body>
+  <script type="text/javascript">
+      function postOnFacebook() {
+        //window.location.href = "/Account/PostOnFacebook";
+        FB.ui(
+            {
+                method: 'share',
+                href: 'https://www.secure.egrist.org/panel/mhexperts/mh-dss-portal/java-tool/java-tool.php?clinicianClientID=annon&patient-id=71463&SID=hccjpsk77nqj4c9p38fokk4pp4&ll=1&ACAS=1',
+            },
+            // callback
+            function (response) {
+                if (response && !response.error_message) {
+                    alert('Posting completed.');
+                } else {
+                    alert('Error while posting.');
+                }
+            }
+  );
+    }
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '286979238858519',
+            xfbml: true,
+            version: 'v2.5'
+        });
+        postOnFacebook();
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</html>

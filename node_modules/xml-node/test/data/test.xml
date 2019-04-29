@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<test>
+  <text>Text</text>
+  <cdata>
+    <![CDATA[Text & some more text!]]>
+    <![CDATA[CData & some more CData!]]>
+  </cdata>
+  <!-- comment -->
+  <text-plus-node>
+    Text <plus>plus</plus> node
+  </text-plus-node>
+  <!-- some more comment -->
+  <node with-attribute="true"/>
+</test>

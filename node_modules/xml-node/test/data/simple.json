@@ -1,0 +1,19 @@
+{
+  "cupcake": {
+    "donut": {
+      "eclair": { "_": "froyo" }
+    },
+    "gingerbread": [
+      1,
+      true,
+      null,
+      "honeycomb",
+      {
+        "ice_cream_sandwich": {
+          "$": { "jelly_bean" : "kitkat"}
+        }
+      }
+    ],
+    "$": { "lollipop": "marshmallow" }
+  }
+}

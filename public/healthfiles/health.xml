@@ -1,0 +1,130 @@
+<report ass-id="1038267" ass-date="2019-04-22" ass-time="18:31:04" ass-status="completed" ass-population="service-user" ass-population-friendly-name="Self Assessment" client-id="71463" client-name="Test Person" trust-client-grist-id="annon" is-mygrace-account-client="1" prc="ZEE3F-3F7-FS6" assessed-by="Anonymous" report-language="english">
+    <reference-info>
+        <default-mg-colours>
+            <mg grade="0" bg-col-standard="#00FF00" bg-col-mygrace="#2EFC29"/>
+            <mg grade="1" bg-col-standard="#80FF00" bg-col-mygrace="#A0FC1D"/>
+            <mg grade="2" bg-col-standard="#CCFF00" bg-col-mygrace="#E0F533"/>
+            <mg grade="3" bg-col-standard="#E5FF00" bg-col-mygrace="#C2EB4F"/>
+            <mg grade="4" bg-col-standard="#FFD000" bg-col-mygrace="#95DC85"/>
+            <mg grade="5" bg-col-standard="#FFBB00" bg-col-mygrace="#5DC9C6"/>
+            <mg grade="6" bg-col-standard="#FF9D00" bg-col-mygrace="#3BB8EF"/>
+            <mg grade="7" bg-col-standard="#FF7B00" bg-col-mygrace="#4382FA"/>
+            <mg grade="8" bg-col-standard="#FF5D00" bg-col-mygrace="#595CF0"/>
+            <mg grade="9" bg-col-standard="#FF4100" bg-col-mygrace="#6F39E5"/>
+            <mg grade="10" bg-col-standard="#FF0000" bg-col-mygrace="#8416DB"/>
+            <mg grade="DK" bg-col-standard="#EEEEEE" bg-col-mygrace="#EEEEEE"/>
+            <mg grade="neutral" bg-col-standard="#FFFFCC" bg-col-mygrace="#FFFFCC"/>
+        </default-mg-colours>
+    </reference-info>
+    <settings use-mygrace-colours="1" use-less-alarming-scale-labels="1"/>
+    <assessment domain-label="mental health" overall-management="-------------------------------------------- Things I need to do immediately to stay safe -------------------------------------------- ------------------------------------------------------------------------------------------------------- On-going issues I need to deal with (e.g. where I live, who I live with, long-term physical conditions) ------------------------------------------------------------------------------------------------------- Getting through university and taking care of my health problems --------------------------------------------------------------------------------------------------------- Long-standing issues I need to deal with (e.g. effects of past trauma or abuse, low self-esteem, anxiety) --------------------------------------------------------------------------------------------------------- Speak to someone about my anxiety problems" overall-management-date="2019-04-22" overall-management-title="Action Plan">
+        <node code="sn" label="not looking after yourself" risk-assessed-when="this-assessment" ass-id="1038267" ass-date="2019-04-22">
+            <node code="sn-appearnce" label="signs of self-neglect" raw-answer="YES" formatted-answer="Yes" mg="" mg-colour="neutral" italic-label="1"/>
+        </node>
+        <node code="vuln-su" label="feeling vulnerable" risk-assessed-when="this-assessment" ass-id="1038267" ass-date="2019-04-22">
+            <node code="vuln-specific" label="questions specifically about vulnerability" raw-answer="NO" formatted-answer="Not concerned in this context" mg="" mg-colour="neutral"/>
+        </node>
+        <node code="sh" label="Harming yourself" risk-assessed-when="this-assessment" ass-id="1038267" ass-date="2019-04-22">
+            <node code="sh-specific" label="questions about harming yourself" raw-answer="NO" formatted-answer="Not concerned in this context" mg="" mg-colour="neutral"/>
+        </node>
+        <node code="suic" label="ending your own life" risk-assessed-when="this-assessment" ass-id="1038267" ass-date="2019-04-22">
+            <node code="sui-specific" label="questions specifically about taking your own life" raw-answer="NO" formatted-answer="Not concerned in this context" mg="" mg-colour="neutral">
+                <node code="sn-appearnce" label="signs of self-neglect" raw-answer="YES" formatted-answer="Yes" mg="" mg-colour="neutral" italic-label="1"/>
+            </node>
+        </node>
+        <node code="hto" label="harming others or damaging property" risk-assessed-when="this-assessment" ass-id="1038267" ass-date="2019-04-22">
+            <node code="hto-specific" label="questions about harm/damage" raw-answer="NO" formatted-answer="Not concerned in this context" mg="" mg-colour="neutral">
+                <node code="hto-past-curr-ep" label="past and current episodes of harm or damage" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1" persistent="hard"/>
+                <node code="hto-intention" label="intention to cause harm or damage" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral"/>
+            </node>
+        </node>
+        <node code="generic" label="other areas of your life" risk-assessed-when="this-assessment" ass-id="1038267" ass-date="2019-04-22">
+            <node code="gen-feel-emot" label="feelings and emotions" raw-answer="YES" formatted-answer="Concerned" mg="" mg-colour="neutral" comment="My mood can change from happy to sad straight away as my mind plays games and I start thinking about past things in life which get me upset" comment-date="2019-04-22" italic-label="1">
+                <node code="gen-sad" label="feeling sad" raw-answer="8" formatted-answer="8 - High concern" mg="0.8" mg-colour="8"/>
+                <node code="gen-anx-emotns" label="anxiety" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.6" mg-colour="6"/>
+                <node code="gen-mood-swings" label="mood swings" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5"/>
+                <node code="gen-negative-self" label="negative feelings about myself" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.6" mg-colour="6"/>
+                <node code="gen-life-not-livng" label="enjoyment of your life" raw-answer="4" formatted-answer="4 - Medium concern" mg="0.6" mg-colour="6"/>
+                <node code="gen-plans-future" label="plans for the future" raw-answer="8" formatted-answer="8 - Low concern" mg="0.2" mg-colour="2"/>
+                <node code="gen-angry-emotns" label="feeling angry" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5" comment="Sometimes I can feel totally normal and then next minute I get really annoyed and moody about certain things" comment-date="2019-04-22"/>
+                <node code="gen-helpless" label="feeling helpless" raw-answer="4" formatted-answer="4 - Medium concern" mg="0.4" mg-colour="4"/>
+                <node code="gen-distress" label="distress" raw-answer="7" formatted-answer="7 - High concern" mg="0.7" mg-colour="7"/>
+                <node code="gen-jealous" label="jealousy" raw-answer="3" formatted-answer="3 - Low concern" mg="0.3" mg-colour="3"/>
+            </node>
+            <node code="gen-self-worth-p" label="my sense of self worth" raw-answer="YES" formatted-answer="Concerned" mg="" mg-colour="neutral" italic-label="1" persistent="soft">
+                <node code="worthlessness" label="self-worth" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5" persistent="soft"/>
+                <node code="grandiosity" label="feeling all-important" raw-answer="DK" formatted-answer="Don't know" mg="" mg-colour="DK" persistent="soft"/>
+            </node>
+            <node code="motive-eng" label="my motivation and taking part" raw-answer="NO" formatted-answer="Not concerned in this context" mg="" mg-colour="neutral"/>
+            <node code="gen-soc-contxt" label="my social world" raw-answer="YES" formatted-answer="Concerned" mg="" mg-colour="neutral" italic-label="1">
+                <node code="gen-net-relat" label="how extensive a network of people in my life" raw-answer="10" formatted-answer="10 - No concern" mg="" mg-colour="0" persistent="soft"/>
+                <node code="gen-relat-supp" label="any supportive relationships" raw-answer="10" formatted-answer="10 - No concern" mg="" mg-colour="0" persistent="soft"/>
+                <node code="gen-relat-detr" label="relationships that are bad for you" raw-answer="7" formatted-answer="7 - High concern" mg="0.7" mg-colour="7" persistent="soft"/>
+                <node code="gen-relat-detr-chg" label="changes for the worse in relationships" raw-answer="7" formatted-answer="7 - High concern" mg="0.7" mg-colour="7"/>
+                <node code="gen-move-freq" label="moving house" comment="I've never moved in my life" comment-date="2019-04-22" persistent="soft"/>
+                <node code="gen-accom-loss" label="losing your home" raw-answer="no" formatted-answer="No" mg="0" mg-colour="0" persistent="soft"/>
+                <node code="gen-home-type" label="support at home" raw-answer="no-support" formatted-answer="No support" mg="0.5" mg-colour="5" persistent="soft"/>
+                <node code="gen-isol-accom" label="living in an isolated place" raw-answer="7" formatted-answer="7 - High concern" mg="0.7" mg-colour="7" persistent="soft"/>
+                <node code="gen-neigbrhd-rsky" label="neighbourhood safety" raw-answer="2" formatted-answer="2 - Low concern" mg="0.2" mg-colour="2" persistent="soft"/>
+                <node code="gen-accom-hm-care" label="care of my home" raw-answer="10" formatted-answer="10 - No concern" mg="" mg-colour="0"/>
+                <node code="gen-accom-habitbl" label="accommodation fit to live in" raw-answer="10" formatted-answer="10 - No concern" mg="" mg-colour="0"/>
+                <node code="gen-poverty" label="covering the cost of living" raw-answer="9" formatted-answer="9 - Very low concern" mg="0.1" mg-colour="1" persistent="soft"/>
+                <node code="gen-perc-debt-anx" label="anxiety about debt" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.6" mg-colour="6"/>
+                <node code="gen-job-chg-frq" label="stability of work history" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.4" mg-colour="4" persistent="soft"/>
+                <node code="gen-rec-bad-job-ch" label="unhelpful changes to employment" raw-answer="3" formatted-answer="3 - Low concern" mg="0.3" mg-colour="3"/>
+            </node>
+            <node code="gen-currnt-bhvr" label="my daily life" raw-answer="YES" formatted-answer="Concerned" mg="" mg-colour="neutral" italic-label="1">
+                <node code="gen-day-struct" label="structure in my lfe" raw-answer="2" formatted-answer="2 - High concern" mg="0.8" mg-colour="8"/>
+             
+                <node code="gen-sleep-dist" label="sleep" raw-answer="2" formatted-answer="2 - High concern" mg="0.8" mg-colour="8"/>
+                <node code="gen-unusl-rec-bhvr" label="not being myself" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.6" mg-colour="6"/>
+                <node code="gen-rsk-behavr" label="risky activities" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5"/>
+                <node code="gen-unint-risk-behavr" label="carelessness" raw-answer="4" formatted-answer="4 - Medium concern" mg="0.4" mg-colour="4"/>
+                <node code="gen-diet-eating" label="eating healthily" raw-answer="7" formatted-answer="7 - Low concern" mg="0.3" mg-colour="3"/>
+                <node code="gen-diet-weigt-ext" label="my weight" raw-answer="WEIGHT-OK" formatted-answer="Weight ok" mg="0" mg-colour="0" persistent="soft"/>
+                <node code="gen-diet-weigt-chg" label="weight change" raw-answer="3" formatted-answer="3 - Low concern" mg="0.3" mg-colour="3"/>
+                <node code="gen-diet-drink" label="fluid intake" raw-answer="7" formatted-answer="7 - Low concern" mg="0.3" mg-colour="3"/>
+            </node>
+            <node code="gen-subs-misuse" label="drink and drugs" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1" persistent="hard"/>
+            <node code="mental-health" label="history of mental health issues" raw-answer="YES" formatted-answer="Yes" mg="" mg-colour="neutral" italic-label="1" persistent="hard">
+                <node code="clin-depression" label="clinical diagnosis of depression" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1" persistent="hard"/>
+                <node code="gen-mntl-cur-sympt" label="current symptoms of mental illness" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1"/>
+            </node>
+            <node code="gen-phys-hlth-prb" label="my physical health" raw-answer="YES" formatted-answer="Concerned" mg="" mg-colour="neutral" italic-label="1" persistent="soft">
+                <node code="gen-phys-hlth-disa" label="mobility and dexterity" raw-answer="0" formatted-answer="0 - No concern" mg="0" mg-colour="0" persistent="soft"/>
+                <node code="gen-com-imp" label="communication difficulties" raw-answer="0" formatted-answer="0 - No concern" mg="0" mg-colour="0" persistent="soft"/>
+                <node code="gen-phys-hlth-pain" label="pain" raw-answer="7" formatted-answer="7 - High concern" mg="0.7" mg-colour="7" persistent="soft"/>
+                <node code="gen-phys-hlth-det" label="worsening physical health" raw-answer="8" formatted-answer="8 - High concern" mg="0.8" mg-colour="8"/>
+                <node code="gen-chronic-disease" label="long-term health conditions" raw-answer="asthma" formatted-answer="Asthma" mg="1" mg-colour="10" comment="I've had back pains for years but never got it checked out properly" comment-date="2019-04-22" persistent="soft"/>
+            </node>
+            <node code="gen-meds-therpy" label="current treatment for health problems" raw-answer="YES" formatted-answer="Yes" mg="" mg-colour="neutral">
+                <node code="gen-meds-concord" label="following health professionals' advice" raw-answer="7" formatted-answer="7 - Low concern" mg="0.3" mg-colour="3"/>
+                <node code="gen-serv-perc-supp" label="feeling supported by services" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5"/>
+                <node code="gen-med-perc-benft" label="benefit from treatment" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.4" mg-colour="4"/>
+            </node>
+            <node code="gen-personality" label="personality issues" raw-answer="YES" formatted-answer="Yes" mg="" mg-colour="neutral" persistent="soft">
+                <node code="gen-impulse" label="impulsiveness" raw-answer="4" formatted-answer="4 - Medium concern" mg="0.4" mg-colour="4" persistent="soft"/>
+         
+                <node code="gen-empathy-abil" label="empathy" raw-answer="7" formatted-answer="7 - Low concern" mg="0.3" mg-colour="3" persistent="soft"/>
+                <node code="gen-dependence" label="dependence" raw-answer="3" formatted-answer="3 - Low concern" mg="0.3" mg-colour="3" persistent="soft"/>
+               
+                <node code="gen-coping-abil" label="coping with major life stresses" raw-answer="4" formatted-answer="4 - Medium concern" mg="0.6" mg-colour="6" persistent="soft"/>
+                <node code="gen-hostile" label="hostility" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5" comment="Sometimes people think I'm not an approachable person however I am friendly once you get to know me. People like to judge a book by its cover" comment-date="2019-04-22" persistent="soft"/>
+                <node code="gen-reliable" label="reliability" raw-answer="8" formatted-answer="8 - Low concern" mg="0.2" mg-colour="2" comment="People know they can trust me" comment-date="2019-04-22" persistent="soft"/>
+            </node>
+            <node code="ment-fac" label="problems with thinking, memory, or concentration" raw-answer="YES" formatted-answer="Yes" mg="" mg-colour="neutral" italic-label="1" persistent="soft">
+                <node code="gen-decision" label="making decisions" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.4" mg-colour="4" persistent="soft"/>
+                <node code="gen-concentr" label="concentration" raw-answer="6" formatted-answer="6 - Medium concern" mg="0.4" mg-colour="4" persistent="soft"/>
+                <node code="gen-cog-think-mem" label="changes in thinking processes and memory" raw-answer="5" formatted-answer="5 - Medium concern" mg="0.5" mg-colour="5" persistent="soft"/>
+                <node code="gen-impaird-cog" label="problems with thinking and memory" raw-answer="moderate" formatted-answer="Moderate" mg="0.6" mg-colour="6" persistent="soft"/>
+                <node code="gen-learn-disab" label="learning disabilities" raw-answer="none" formatted-answer="None" mg="0" mg-colour="0" persistent="soft"/>
+            </node>
+            <node code="insight-resp" label="problems with understanding risk and responsibility" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" persistent="soft"/>
+            <node code="adv-life-event" label="bad events in my life journey" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1" persistent="hard"/>
+        
+            <node code="gen-marital-status" label="relationship status" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1" persistent="soft" mg-colour-override="neutral" demographic-data="1"/>
+            <node code="gen-accom-share" label="who I live with other than a partner" raw-answer="NO" formatted-answer="No" mg="" mg-colour="neutral" italic-label="1" persistent="soft" mg-colour-override="neutral" demographic-data="1"/>
+     
+        </node>
+    </assessment>
+</report>

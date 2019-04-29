@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<cupcake lollipop="marshmallow">
+  <donut>
+    <eclair>froyo</eclair>
+  </donut>
+  <gingerbread>
+    1
+    true
+    honeycomb
+    <ice_cream_sandwich jelly_bean="kitkat"/>
+  </gingerbread>
+</cupcake>
